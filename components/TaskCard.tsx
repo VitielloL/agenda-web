@@ -25,7 +25,7 @@ export default function TaskCard({
       className={`
         cursor-pointer
         rounded-lg p-5 mb-4
-        shadow-md border-l-4 min-h-[90px]
+        shadow-md border-l-4 min-h-22.5
         transition
         ${tipoStyles[tipo]}
         ${concluido ? 'bg-slate-700' : 'bg-slate-800 hover:bg-slate-700'}
