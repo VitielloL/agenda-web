@@ -1,0 +1,276 @@
+import { Task } from "@/types/task";
+
+export const mockTasks: Task[] = [
+  // SEGUNDA
+  {
+    id: "1",
+    titulo: "Academia",
+    descricao: "Treino do dia",
+    dia: "Segunda",
+    concluido: false,
+  },
+  {
+    id: "2",
+    titulo: "Muay Thai",
+    descricao: "Aula",
+    dia: "Segunda",
+    concluido: false,
+  },
+  {
+    id: "3",
+    titulo: "Gravar vídeo",
+    descricao: "Conteúdo",
+    dia: "Segunda",
+    concluido: false,
+  },
+  {
+    id: "4",
+    titulo: "Editar vídeo",
+    descricao: "Conteúdo",
+    dia: "Segunda",
+    concluido: false,
+  },
+  {
+    id: "5",
+    titulo: "Postar vídeo",
+    descricao: "Conteúdo",
+    dia: "Segunda",
+    concluido: false,
+  },
+  {
+    id: "6",
+    titulo: "Demanda normal",
+    descricao: "Programar",
+    dia: "Segunda",
+    concluido: false,
+  },
+
+  // TERÇA
+  {
+    id: "7",
+    titulo: "Academia",
+    descricao: "Treino do dia",
+    dia: "Terça",
+    concluido: false,
+  },
+  {
+    id: "8",
+    titulo: "Gravar vídeo",
+    descricao: "Conteúdo",
+    dia: "Terça",
+    concluido: false,
+  },
+  {
+    id: "9",
+    titulo: "Editar vídeo",
+    descricao: "Conteúdo",
+    dia: "Terça",
+    concluido: false,
+  },
+  {
+    id: "10",
+    titulo: "Postar vídeo",
+    descricao: "Conteúdo",
+    dia: "Terça",
+    concluido: false,
+  },
+  {
+    id: "11",
+    titulo: "Demanda normal",
+    descricao: "Programar",
+    dia: "Terça",
+    concluido: false,
+  },
+  {
+    id: "12",
+    titulo: "Exercício adicional",
+    descricao: "Prancha, flexão e agachamento",
+    dia: "Terça",
+    concluido: false,
+  },
+
+  // QUARTA
+  {
+    id: "13",
+    titulo: "Academia",
+    descricao: "Treino do dia",
+    dia: "Quarta",
+    concluido: false,
+  },
+  {
+    id: "14",
+    titulo: "Gravar vídeo",
+    descricao: "Conteúdo",
+    dia: "Quarta",
+    concluido: false,
+  },
+  {
+    id: "15",
+    titulo: "Editar vídeo",
+    descricao: "Conteúdo",
+    dia: "Quarta",
+    concluido: false,
+  },
+  {
+    id: "16",
+    titulo: "Postar vídeo",
+    descricao: "Conteúdo",
+    dia: "Quarta",
+    concluido: false,
+  },
+  {
+    id: "17",
+    titulo: "Demanda normal",
+    descricao: "Programar",
+    dia: "Quarta",
+    concluido: false,
+  },
+  {
+    id: "18",
+    titulo: "Exercício adicional",
+    descricao: "Prancha, flexão e agachamento",
+    dia: "Quarta",
+    concluido: false,
+  },
+
+  // QUINTA
+  {
+    id: "19",
+    titulo: "Academia",
+    descricao: "Treino do dia",
+    dia: "Quinta",
+    concluido: false,
+  },
+  {
+    id: "20",
+    titulo: "Muay Thai",
+    descricao: "Aula",
+    dia: "Quinta",
+    concluido: false,
+  },
+  {
+    id: "21",
+    titulo: "Gravar vídeo",
+    descricao: "Conteúdo",
+    dia: "Quinta",
+    concluido: false,
+  },
+  {
+    id: "22",
+    titulo: "Editar vídeo",
+    descricao: "Conteúdo",
+    dia: "Quinta",
+    concluido: false,
+  },
+  {
+    id: "23",
+    titulo: "Postar vídeo",
+    descricao: "Conteúdo",
+    dia: "Quinta",
+    concluido: false,
+  },
+  {
+    id: "24",
+    titulo: "Demanda normal",
+    descricao: "Programar",
+    dia: "Quinta",
+    concluido: false,
+  },
+
+  // SEXTA
+  {
+    id: "25",
+    titulo: "Academia",
+    descricao: "Treino do dia",
+    dia: "Sexta",
+    concluido: false,
+  },
+  {
+    id: "26",
+    titulo: "Gravar vídeo",
+    descricao: "Conteúdo",
+    dia: "Sexta",
+    concluido: false,
+  },
+  {
+    id: "27",
+    titulo: "Editar vídeo",
+    descricao: "Conteúdo",
+    dia: "Sexta",
+    concluido: false,
+  },
+  {
+    id: "28",
+    titulo: "Postar vídeo",
+    descricao: "Conteúdo",
+    dia: "Sexta",
+    concluido: false,
+  },
+  {
+    id: "29",
+    titulo: "Demanda normal",
+    descricao: "Programar",
+    dia: "Sexta",
+    concluido: false,
+  },
+  {
+    id: "30",
+    titulo: "Exercício adicional",
+    descricao: "Prancha, flexão e agachamento",
+    dia: "Sexta",
+    concluido: false,
+  },
+
+  // SÁBADO
+  {
+    id: "31",
+    titulo: "Academia",
+    descricao: "Treino do dia",
+    dia: "Sábado",
+    concluido: false,
+  },
+  {
+    id: "32",
+    titulo: "Gravar vídeo",
+    descricao: "Conteúdo",
+    dia: "Sábado",
+    concluido: false,
+  },
+  {
+    id: "33",
+    titulo: "Editar vídeo",
+    descricao: "Conteúdo",
+    dia: "Sábado",
+    concluido: false,
+  },
+  {
+    id: "34",
+    titulo: "Postar vídeo",
+    descricao: "Conteúdo",
+    dia: "Sábado",
+    concluido: false,
+  },
+
+  // DOMINGO
+  {
+    id: "35",
+    titulo: "Gravar vídeo",
+    descricao: "Conteúdo",
+    dia: "Domingo",
+    concluido: false,
+  },
+  {
+    id: "36",
+    titulo: "Editar vídeo",
+    descricao: "Conteúdo",
+    dia: "Domingo",
+    concluido: false,
+  },
+  {
+    id: "37",
+    titulo: "Postar vídeo",
+    descricao: "Conteúdo",
+    dia: "Domingo",
+    concluido: false,
+  },
+];
