@@ -1,11 +1,9 @@
-import "./globals.css";
+import './globals.css';
 
 export const metadata = {
-  title: "Agenda do Vit",
+  title: 'Agenda do Vit',
   icons: {
-    icon: [
-      { url: "/vitlogo.jpg", type: "image/png" }
-    ],
+    icon: [{ url: '/vitlogo.jpg', type: 'image/png' }],
   },
 };
 
