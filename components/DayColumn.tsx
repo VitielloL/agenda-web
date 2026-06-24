@@ -13,7 +13,7 @@ export default function DayColumn({
   onToggle,
 }: DayColumnProps) {
   return (
-    <div className="bg-slate-800 rounded-lg p-4 min-h-[400px]">
+    <div className="bg-slate-800 rounded-lg p-4 min-h-100">
       <h2 className="font-bold text-lg mb-4">
         {dia}
       </h2>
